@@ -27,37 +27,39 @@
         <button class="menu-toggle">☰</button> <!-- aparece no mobile -->
     </header>
     <script src="js/script.js"></script>
-    <div id="contact-form">
-	    <div>
-		    <h1>Entre em Contato</h1> 
-            <h4>Se gostou dos projetos que viu ou até mesmo dos</br>meus conhecimentos irei ficar feliz em te ajudar em</br>algo</h4> 
+    <div class="center">
+        <div id="contact-form">
+            <div>
+                <h1>Entre em Contato</h1> 
+                <h4>Se gostou dos projetos que viu ou até mesmo dos</br>meus conhecimentos irei ficar feliz em te ajudar em</br>algo</h4> 
+            </div>
+            <p id="failure">Falha ao enviar.</p>  
+            <p id="success">Seu email foi enviado, muito obrigado!</p>
+            <form method="post" action="/">
+                <div>
+                <label for="name">
+                    <span class="required">Nome: *</span> 
+                    <input type="text" id="name" name="name" value="" placeholder="Seu nome" required="required" tabindex="1" autofocus="autofocus" />
+                </label> 
+                </div>
+                <div>
+                <label for="email">
+                    <span class="required">Email: *</span>
+                    <input type="email" id="email" name="email" value="" placeholder="Seu Email" tabindex="2" required="required" />
+                </label>  
+                </div>
+                <div>		          
+                <label for="message">
+                    <span class="required">Mensagem: *</span> 
+                    <textarea id="message" name="message" placeholder="Por favor, escreva sua mensagem aqui." tabindex="5" required="required"></textarea> 
+                </label>  
+                </div>
+                <div>		           
+                <button name="submit" type="submit" id="submit" >Enviar</button> 
+                </div>
+            </form>
         </div>
-		<p id="failure">Falha ao enviar.</p>  
-		<p id="success">Seu email foi enviado, muito obrigado!</p>
-        <form method="post" action="/">
-			<div>
-		      <label for="name">
-		      	<span class="required">Nome: *</span> 
-		      	<input type="text" id="name" name="name" value="" placeholder="Seu nome" required="required" tabindex="1" autofocus="autofocus" />
-		      </label> 
-			</div>
-			<div>
-		      <label for="email">
-		      	<span class="required">Email: *</span>
-		      	<input type="email" id="email" name="email" value="" placeholder="Seu Email" tabindex="2" required="required" />
-		      </label>  
-			</div>
-			<div>		          
-		      <label for="message">
-		      	<span class="required">Mensagem: *</span> 
-		      	<textarea id="message" name="message" placeholder="Por favor, escreva sua mensagem aqui." tabindex="5" required="required"></textarea> 
-		      </label>  
-			</div>
-			<div>		           
-		      <button name="submit" type="submit" id="submit" >Enviar</button> 
-			</div>
-        </form>
-	</div>
+    </div>
 	<footer>
         <div class="footer-content">
             <div class="footer-section">
