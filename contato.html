@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfólio de Lucas Dickmann Schneider - Desenvolvedor Full-Stack especializado em Flutter, Java e Python">
+    <meta name="keywords" content="desenvolvedor, full-stack, flutter, java, python, programador, portfólio">
+    <meta name="author" content="Lucas Dickmann Schneider">
+    <meta name="robots" content="index, follow">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Contato - Lucas D. Schneider | Entre em Contato</title>
+</head>
+<body>
+    <header class="app-bar">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Logo de Lucas D. Schneider"></a>
+            <span>Lucas D. Schneider</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+        </ul>
+        <button class="menu-toggle">☰</button> <!-- aparece no mobile -->
+    </header>
+    <script src="js/script.js"></script>
+    <div id="contact-form">
+	    <div>
+		    <h1>Entre em Contato</h1> 
+            <h4>Se gostou dos projetos que viu ou até mesmo dos</br>meus conhecimentos irei ficar feliz em te ajudar em</br>algo</h4> 
+        </div>
+		<p id="failure">Falha ao enviar.</p>  
+		<p id="success">Seu email foi enviado, muito obrigado!</p>
+        <form method="post" action="/">
+			<div>
+		      <label for="name">
+		      	<span class="required">Nome: *</span> 
+		      	<input type="text" id="name" name="name" value="" placeholder="Seu nome" required="required" tabindex="1" autofocus="autofocus" />
+		      </label> 
+			</div>
+			<div>
+		      <label for="email">
+		      	<span class="required">Email: *</span>
+		      	<input type="email" id="email" name="email" value="" placeholder="Seu Email" tabindex="2" required="required" />
+		      </label>  
+			</div>
+			<div>		          
+		      <label for="message">
+		      	<span class="required">Mensagem: *</span> 
+		      	<textarea id="message" name="message" placeholder="Por favor, escreva sua mensagem aqui." tabindex="5" required="required"></textarea> 
+		      </label>  
+			</div>
+			<div>		           
+		      <button name="submit" type="submit" id="submit" >Enviar</button> 
+			</div>
+        </form>
+	</div>
+	<footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i>📧</i>
+                        <span>dickmannschneiderlucas@email.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i>📱</i>
+                        <span>+55 (47) 98479-6048</span>
+                    </div>
+                    <div class="contact-item">
+                        <i>📍</i>
+                        <span>Blumenau, SC - Brasil</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="social-link-container">
+                    <a href="https://github.com/LucasDS0608" class="social-link"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/lucas_d_schneider/" class="social-link"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="" class="social-link"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Navegação</h3>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre mim</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Lucas Dickmann Schneider. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
